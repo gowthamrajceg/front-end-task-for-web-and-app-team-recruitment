@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+
+        <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <style>
+            ul{
+                padding: 0;
+                list-style: none;
+                background: skyblue;
+            }
+            ul li{
+                display: inline-block;
+                position: relative;
+                line-height: 21px;
+                text-align: left;
+            }
+            ul li a{
+                display: block;
+                padding: 0px 15px;
+                margin-top: 15px;
+                color: #333;
+                text-decoration: none;
+            }
+            ul li a:hover{
+                color: #fff;
+                background: #939393;
+            }
+            ul li ul.dropdown{
+                min-width: 100%; /* Set width of the dropdown */
+                background: #f2f2f2;
+                display: none;
+                position: absolute;
+                z-index: 999;
+                left: 0;
+            }
+            ul li:hover ul.dropdown{
+                display: block;	/* Display the dropdown */
+            }
+            ul li ul.dropdown li{
+                display: block;
+            }
+            #p{
+                float:right;
+            }
+            #main
+                    {   
+                    top:0px;
+                    padding-top:10;
+                    margin:auto; position:relative;
+                    width:950px;
+                    height:100%;
+                    padding-left: 30px;
+                    padding-bottom: 100px;
+                    }
+       
+            #maincontainer 
+            {   
+            top:0px;
+            padding-top:10;
+            margin:auto; position:relative;
+            border: 1px solid black;
+            width:950px;
+            height:100%;
+            padding-left: 30px;
+            padding-bottom: 100px;
+            }
+            #l{
+                padding-left: 70px;
+            }
+              </style>
+</head>
+<body id=maincontainer>
+        <header class="container">
+                <div class="fixed-nav-bar" >
+                  <h1 class="col-sm-8" style="text-align: left">e-Learning</h1>
+                  <nav style="font-color:white ; float:right">
+                  <ul>
+                    <li><a style="color: white" href="home.html">Home</a></li>
+                    <li><a style="color: white" href="Courses.html">Courses</a>
+                      <ul class="dropdown">
+                        <li><a href="#">Business</a>
+                        </li>
+                        <li><a href="#">Math and Logic</a></li>
+                        <li><a href="#">Computer Science</a></li>
+                        <li><a href="#">Data Science</a></li>
+                        <li><a href="#">Information Technology</a></li>
+                        <li><a href="#">Health</a></li>
+                      </ul>
+                    </li>
+                    <li><a style="color: white" href="blog.html">Blog</a></li>
+                    <li><a style="color: white" href="contact.html">Contact</li>
+                    <li><a style="color: white" href="page.html">Page</a></li>
+                    <li><a style="color: white" href="about.html">About</a></li>
+                   </nav>
+                </div>
+              </header>
+    <h1 style="font-family: 'Times New Roman', Times, serif ; text-align: center"><u>Contact Us</u></h1>
+    <h3>Need Help ?</h3>
+    <p>
+        Feel free free to ask doubts in chat box. Our mentors will reply for it 
+        with a day and you can have a conversion with them about your doubts.
+    </p>
+    <br>
+    <br>
+    <h3>Connect with us via social media</h3>
+    <p id=l>
+        <b>Google</b>www.elearning.com.<br>
+        <b>gmail</b>easylearnin@gmail.com.<br>
+        <b>facebook</b>Elearn@facebook.com.<br>
+        <b>twitter</b>Elear@twitter.com<br>
+        You can post your queries here too.<br>
+    </p>
+</body>
+</html>

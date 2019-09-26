@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <Title>About Us</Title>
+ 
+ <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+
+<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="main.css">
+<style>
+    ul{
+        padding: 0;
+        list-style: none;
+        background: skyblue;
+    }
+    ul li{
+        display: inline-block;
+        position: relative;
+        line-height: 21px;
+        text-align: left;
+    }
+    ul li a{
+        display: block;
+        padding: 0px 15px;
+        margin-top: 15px;
+        color: #333;
+        text-decoration: none;
+    }
+    ul li a:hover{
+        color: #fff;
+        background: #939393;
+    }
+    ul li ul.dropdown{
+        min-width: 100%; /* Set width of the dropdown */
+        background: #f2f2f2;
+        display: none;
+        position: absolute;
+        z-index: 999;
+        left: 0;
+    }
+    ul li:hover ul.dropdown{
+        display: block;	/* Display the dropdown */
+    }
+    ul li ul.dropdown li{
+        display: block;
+    }
+    #p{
+        float:right;
+    }
+    #main
+            {   
+            top:0px;
+            padding-top:10;
+            margin:auto; position:relative;
+            width:950px;
+            height:100%;
+            padding-left: 30px;
+            padding-bottom: 100px;
+            }
+    </style>
+    <body style="background-color: white" id=main>
+            
+            <header class="container">
+                    <div class="fixed-nav-bar" >
+                      <h1 class="col-sm-8" style="text-align: left">e-Learning</h1>
+                      <nav style="font-color:white ; float:right">
+                      <ul>
+                        <li><a style="color: white" href="home.html">Home</a></li>
+                        <li><a style="color: white" href="Courses.html">Courses</a>
+                          <ul class="dropdown">
+                            <li><a href="#">Business</a>
+                            </li>
+                            <li><a href="#">Math and Logic</a></li>
+                            <li><a href="#">Computer Science</a></li>
+                            <li><a href="#">Data Science</a></li>
+                            <li><a href="#">Information Technology</a></li>
+                            <li><a href="#">Health</a></li>
+                          </ul>
+                        </li>
+                      
+                        <li><a style="color: white" href="contact.html">Contact</li>
+                        <li><a style="color: white" href="page.html">Page</a></li>
+                        <li><a style="color: white" href="about.html">About</a></li>
+                        <li><a style="color: white" href="blog.html">Blog</a></li>
+                       </nav>
+                    </div>
+                  </header>
+                <h3 style="color: #1AA1D4">
+                        "Students do not learn much just sitting in classes listening to teachers, memorizing prepackaged assignments, 
+                        and spitting out answers. They must talk about what they are learning, write reflectively about it, 
+                        relate it to past experiences, and apply it to their daily lives. 
+                        They must make what they learn part of themselves.” - Arthur W. Chickering and Stephen C. Ehrmann
+                </h3>
+                <hr>
+                <br>
+                <br>
+                <p><img id=p src="co1.jpg"/>
+                        <b>Courses</b><br>
+                        Learn something new
+                        <br>
+                        Hundreds of free courses with video lectures, 
+                        homework exercises, and community discussion forums. 
+                        Paid courses provide additional quizzes and projects as well as a shareable Course
+                        Certificate upon completion.<br>
+                        <ol>
+                            <li>Lectures can be downloaded and viewed anywhere anytime</li>
+                            <li>Certifications are also available</li>
+                            <li>Currently trending courses are available</li><br>
+                        </ol>
+                </p>
+                <hr>
+                <p><img id=p style="float: left ; padding-right: 20px" src="about2.jpg"/>
+                    <b>In E-Learning , you have access to</b><br><br>
+                    <b>Mobile Learning</b>You can download lectures and view it offline. Available for iOS and Android<br>
+                    <b>Community</b>You can ask doubts in community boards and get cleared or clera doubts.You can have a conversion on topics.<br>
+                    <b>Sharable Certificates</b>You can get a certificate on successfull completion of paid courses and get certificate downloaded.
+                    
+            </p>
+    </body>
+</html>

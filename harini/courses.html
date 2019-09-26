@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>View_courses </title>
+<style>
+
+
+
+h1{
+  text-align:center;
+  font-size:300%;
+  font-family: "sans-serif";
+  color:black;
+  text-shadow: 2px 2px green;
+}
+h2{
+
+margin-left: 50px;
+font-size:200%;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color:black;
+}
+  ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  li {
+
+    float: left;
+  }
+
+  li a {
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+
+
+
+div.desc {
+  padding:5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+
+
+
+.crop {
+ height: 250px;
+ width: 300px;
+ overflow: hidden;
+ padding-left:100px; 
+ float: left;
+}
+.crop img {
+ height: 200px;
+ width: 300px;
+ float: left;
+}
+
+.responsive {
+  padding: 0 10px;
+  float: left;
+  width: 24.99999%;
+  display:flex;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+</style>
+</head>
+<body style="background-color:skyblue">
+
+
+  <ul>
+    <li><a  href="index.html">Back</a></li>
+    <li style= "float:right"><a  href="about.html">About</a></li>
+    <li style= "float:right"><a  href="contact.html">contact</a></li>
+    <li style= "float:right"><a  href="index.html">Home</a></li>
+    
+
+  </ul>
+<br>
+<br>
+<h1>Popular courses</h1>
+<br>
+
+<h3 style="margin-left: 60px ">Business Management</h3>
+ <div class="responsive">
+    <div class="gallery">
+          <a target="_blank" href="">
+           <img class="crop" src="b1.jpg"  width="600" height="400">
+          </a>
+      <br>
+      <br>
+    <div class="desc">Entrepreneurship courses</div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="">
+        <img class="crop" src="b2.jpg"  width="600" height="400">
+      </a>
+      <br>
+      <br>
+      <div class="desc">  Management Courses</div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+        <a target="_blank" href="#">
+        <img class="crop" src="b3.jpg"  width="600" height="400">
+      </a>
+      <br>
+      <br>
+      <div class="desc">Business analysis</div>
+    </div>
+  </div>
+ 
+
+<div class="responsive">
+ 
+   <div class="gallery">
+     <h3 style="margin-left: 60px ">Computer Science</h3>
+    <a target="_blank" href="#"></a>
+      <img class="crop" src="c1.jpg"  width="600" height="400">
+    </a>
+    <br>
+    <br>
+    <div class="desc">Artificial Intelligence</div>
+  </div>
+</div>
+  <div class="responsive">
+ <div class="gallery">
+    <br>
+    <br>
+    <br>
+    <br>
+    <a target="_blank" href="#">
+     <img class="crop" src="c2.jpg" width="600" height="400">
+    </a>
+    <br>
+    <br>
+    <div class="desc">Machine Learning</div>
+ </div>
+</div>
+ <div class="responsive">
+ <div class="gallery">
+    <br>
+    <br>
+    <br>
+    <br>
+   <a target="_blank" href="#">
+     <img class="crop" src="c3.jpg"  width="600" height="400">
+   </a>
+   <br>
+   <br>
+   <div class="desc">Python</div>
+ </div>
+</div>
+
+<div class="responsive">
+ <div class="gallery">
+   <h3 style="margin-left: 60px">Math and Logic</h3>
+   <a target="_blank" href="#">
+        <img class="crop" src="m1.jpg" alt="tool3" width="600" height="400">
+    </a>
+    <br>
+    <br>
+    <div class="desc">problem solving</div>
+ </div>
+</div>
+
+<div class="responsive">
+ <div class="gallery" >
+    <br>
+    <br>
+    <br>
+     <a target="_blank" href="#">
+        <img class="crop"  src="m2.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <br>
+    <br>
+<div class="desc">logical reasoning</div>
+ </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery" >
+      <br>
+      <br>
+      <br>
+      <a target="_blank" href="#">
+         <img class="crop"  src="m3.jpg" alt="Mountains" width="600" height="400">
+     </a>
+     <br>
+     <br>
+ <div class="desc">Analytical thinking</div>
+  </div>
+ </div>
+
+ <!--
+ <div class="img" >
+ <img src="images(2).jpeg" alt="Mountains" width="600" height="400"></div>
+
+ <div class="img" >
+ <img src="images.jpeg.jpeg" alt="Mountains" width="600" height="400"></div>
+
+ <div class="img" >
+ <img src="download.jpeg.jpeg" alt="Mountains" width="600" height="400"></div>
+ -->
+
+<!-- <div class="img" style="background-image:url('http://i.imgur.com/37w80TG.jpg');"></div> -->
+<!-- <div class="img" style="background-image:url('http://i.imgur.com/B1MCOtx.jpg');"></div> -->
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+</div>
+
+</body>
+</html>
